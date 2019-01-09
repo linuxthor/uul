@@ -23,7 +23,7 @@ in the ELF header is set to 0x09 ("FreeBSD") allowing FreeBSD to load the file.
 
 The code exploits differences in syscall numbering to determine which system 'family' it's currently
 running on. 64 bit versions of Linux follow a different system call numbering to 64 bit versions of BSD/SunOS
-with 64 bit versions of Haiku having yet another different system call numbering. We can use this as a gadget 
+with 64 bit versions of Haiku having yet another, different system call numbering. We can use this as a gadget 
 to work out what system family we're running on based on the return value of certain system calls. 
 
 Firstly system call 12 is executed, this is create_sem on Haiku, chdir on \*BSD and brk on Linux.
