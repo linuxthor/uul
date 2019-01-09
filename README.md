@@ -30,7 +30,7 @@ Firstly system call 12 is executed, this is create_sem on Haiku, chdir on \*BSD 
 On Haiku create_sem will return a sem_id for the sem (for example 0x909) on BSD chdir will return 0 for 
 success and on Linux brk will return the new value of the brk when called with a reasonable argument or the 
 value of the existing brk in case of error (see the 'Linux notes' section of the brk(2) man page for the 
-difference between the brk syscall which works as described above vs the glibc wrapper which may return 
+difference between the brk syscall, which works as described above, vs the glibc wrapper which may return 
 values such as 0 or -1) 
 
 In this PoC the first argument to syscall 12 points to the string '/tmp' as does the second argument. The 
