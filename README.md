@@ -28,7 +28,7 @@ to work out what system family we're running on based on the return value of cer
 
 Firstly system call 12 is executed, this is create_sem on Haiku, chdir on \*BSD and brk on Linux.
 On Haiku create_sem will return a sem_id for the sem (for example 0x909) on BSD chdir will return 0 for 
-success, on Linux brk will return the new value of the brk when called with a reasonable argument or the 
+success and on Linux brk will return the new value of the brk when called with a reasonable argument or the 
 value of the existing brk in case of error (see the 'Linux notes' section of the brk(2) man page for the 
 difference between the brk syscall which works as described above vs the glibc wrapper which may return 
 values such as 0 or -1) 
