@@ -6,7 +6,7 @@ Uul (pronounced "ool") is a PoC 'Universal Unix Loader.' This code when assemble
 ELF binary that can run unmodified on a number of different Unix(-like) systems. The code will 
 determine the flavour of \*nix it's being run on and jump into a code path specific to that system.
 
-Unmodified the uul ELF binary has been tested to run on:
+Unmodified the uul ELF binary has been tested to work on:
 
 - Linux
 - FreeBSD
