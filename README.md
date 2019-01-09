@@ -35,7 +35,8 @@ values such as 0 or -1)
 
 In this PoC the first argument to syscall 12 points to the string '/tmp' as does the second argument. The 
 return value from this system call is checked to see if it is less than 0xffff and if so we branch to a 
-test for Haiku or BSD/Solaris. If the return value is greater than 0xffff we can enter the Linux code path. 
+test for Haiku or BSD/Solaris. If the return value is greater than 0xffff we can enter the Linux code path as 
+this appears to be the return value of brk rather than the Haiku sem_id or the BSD/SunOS chdir success. 
 Next we test to see if this is Haiku or BSD/Solaris by checking if the return value is zero - if it is greater 
 than zero we enter the Haiku code path. Finally we determine if this is BSD or Solaris by attempting to chdir to 
 /system which is (by default) a valid path on Solaris but not on BSD. 
