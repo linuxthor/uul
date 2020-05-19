@@ -189,5 +189,5 @@ Haiku -         Haiku-r1-beta1
 Illumos -       OpenIndiana Hipster-GUI-20181023
 ```
 Based on two earlier PoC:
-https://github.com/linuxthor/sixnix
-https://github.com/linuxthor/OpenLSD
+https://github.com/linuxthor/sixnix    
+https://github.com/linuxthor/OpenLSD    
