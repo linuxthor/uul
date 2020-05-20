@@ -181,7 +181,7 @@ _exit(69)
 Tested versions:
 ```
 Linux   -       Ubuntu 18.04.1 LTS
-FreeBSD -       FreeBSD 12.0-RELEASE r341666 GENERIC
+FreeBSD -       FreeBSD 12.1-RELEASE r354233 GENERIC
 OpenBSD -       OpenBSD 6.7 (GENERIC)
 NetBSD  -       NetBSD 8.0 (GENERIC)
 Dragonfly BSD - DragonFly v5.2.2-RELEASE (X86_64_GENERIC)
