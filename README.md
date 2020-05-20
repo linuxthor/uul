@@ -184,7 +184,7 @@ Linux   -       Ubuntu 18.04.4 LTS
 FreeBSD -       FreeBSD 12.1-RELEASE r354233 GENERIC
 OpenBSD -       OpenBSD 6.7 (GENERIC)
 NetBSD  -       NetBSD 8.1 (GENERIC)
-Dragonfly BSD - DragonFly v5.6.0-RELEASE (X86_64_GENERIC)
+Dragonfly BSD - DragonFly v5.4.3-RELEASE (X86_64_GENERIC)
 Haiku -         Haiku-r1-beta1
 Illumos -       OpenIndiana Hipster-GUI-20181023
 ```
