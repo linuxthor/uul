@@ -180,10 +180,10 @@ _exit(69)
 
 Tested versions:
 ```
-Linux   -       Ubuntu 18.04.1 LTS
+Linux   -       Ubuntu 18.04.4 LTS
 FreeBSD -       FreeBSD 12.1-RELEASE r354233 GENERIC
 OpenBSD -       OpenBSD 6.7 (GENERIC)
-NetBSD  -       NetBSD 8.0 (GENERIC)
+NetBSD  -       NetBSD 8.1 (GENERIC)
 Dragonfly BSD - DragonFly v5.2.2-RELEASE (X86_64_GENERIC)
 Haiku -         Haiku-r1-beta1
 Illumos -       OpenIndiana Hipster-GUI-20181023
