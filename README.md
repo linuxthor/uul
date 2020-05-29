@@ -180,7 +180,7 @@ _exit(69)
 
 Tested versions:
 ```
-Linux   -       Ubuntu 18.04.4 LTS
+Linux   -       Ubuntu 20.04 LTS
 FreeBSD -       FreeBSD 12.1-RELEASE r354233 GENERIC
 OpenBSD -       OpenBSD 6.7 (GENERIC)
 NetBSD  -       NetBSD 8.1 (GENERIC)
