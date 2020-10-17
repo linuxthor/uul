@@ -182,7 +182,7 @@ Tested versions:
 ```
 Linux   -       Ubuntu 20.04 LTS
 FreeBSD -       FreeBSD 12.1-RELEASE r354233 GENERIC
-OpenBSD -       OpenBSD 6.7 (GENERIC)
+OpenBSD -       OpenBSD 6.8 GENERIC#114 amd64    
 NetBSD  -       NetBSD 8.1 (GENERIC)
 Dragonfly BSD - DragonFly v5.4.3-RELEASE (X86_64_GENERIC)
 Haiku -         Haiku-r1-beta1
